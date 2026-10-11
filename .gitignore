@@ -1,4 +1,7 @@
-node_modules/
+
 .env
-dist/
-*.log
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+node_modules/
